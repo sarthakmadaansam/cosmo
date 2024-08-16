@@ -1,0 +1,54 @@
+.chat-page {
+  display: flex;
+  flex-direction: column;
+  height: 1000vh;
+/*  background: url('../pages/abstract-background-images-wallpaper-ai-generated_643360-5955.avif') center center/cover;*/
+}
+
+.chat-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding-bottom: 600px; /* Adjusted to provide space for the input area */
+  width: 12%; /* Ensure it takes full width */
+  background: url('../pages/abstract-background-images-wallpaper-ai-generated_643360-5955.avif') center center/cover;
+}
+
+.message-input {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  
+}
+
+.message-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #b6dde7;
+  border-radius: 4px;
+  
+}
+
+.message-input button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #6a0dad;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.message-input button:hover {
+  background-color: #4d0080;
+}

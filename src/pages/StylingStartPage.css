@@ -1,0 +1,36 @@
+.start-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ensure full viewport height */
+  background: url('../pages/abstract-background-images-wallpaper-ai-generated_643360-5955.avif') center center/cover;  /* Light purple and light pink mix */
+}
+
+.start-page-content {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Light background to make text readable */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.start-page-content h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.start-page-content button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #6a0dad; /* Purple button color */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-page-content button:hover {
+  background-color: #4d0080; /* Darker shade on hover */
+}
